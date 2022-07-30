@@ -1,0 +1,56 @@
+.aboutMeSec {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--head-sec-color);
+  height: clamp(550px, 10vh, 10vh);
+  color: rgba(245, 245, 245, 0.89);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-family: "Ubuntu", "sans-serif";
+}
+
+.identityBarDiv {
+  display: flex;
+  position: relative;
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  align-items: center;
+}
+
+.identityBarAvatar {
+  position: absolute;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.identityBarText {
+  margin-left: 75px;
+}
+
+.headText {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.smallHeadText {
+  margin-top: 25px;
+  font-size: 1.25rem;
+  color: #fee440;
+}
+
+@media only screen and (min-width: 700px) {
+  .aboutMeSec {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--head-sec-color);
+    height: clamp(450px, 10vh, 10vh);
+    color: rgba(245, 245, 245, 0.89);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7.5%;
+  }
+}

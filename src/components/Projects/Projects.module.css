@@ -1,0 +1,22 @@
+.card {
+  /*   box-shadow: 8px 10px 0px 0px rgba(0, 0, 0, 0.3);
+ */
+  height: clamp(250px, 40vh, 45vh);
+  width: 80%;
+  margin-bottom: 25px;
+  background-color: #f3f3ec;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 55px;
+  box-shadow: inset 10px 10px 20px 0px rgba(239, 243, 255, 1),
+    inset -12px -12px 12px 0px rgba(191, 209, 255, 1),
+    12px 12px 14px 0px rgba(131, 154, 215, 1);
+}
+
+.cardHead {
+  font-size: 2rem;
+  text-align: center;
+}

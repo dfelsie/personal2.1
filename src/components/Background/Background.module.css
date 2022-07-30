@@ -1,0 +1,54 @@
+.backgroundSec {
+  height: fit-content;
+  margin-bottom: 150px;
+}
+
+.card {
+  height: 300px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  color: whitesmoke;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.backgroundIcon {
+  font-size: 48px;
+}
+
+.eduCard {
+  background-color: #9b5de5;
+  margin-left: 20px;
+  text-align: left;
+}
+.expCard {
+  background-color: #9b5de5;
+  margin-left: auto;
+  margin-right: -2.5%;
+  text-align: right;
+}
+
+.cardHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.expCard > .cardHead {
+  align-items: end;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 100%;
+}
+
+.exList {
+  margin-left: auto;
+}

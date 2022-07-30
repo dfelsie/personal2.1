@@ -1,0 +1,33 @@
+.talentSec {
+  margin-left: -15px;
+}
+
+.talentGrid {
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.talentCard {
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  width: 200px;
+  border: 1.5px solid #f15bb5;
+  border-radius: 25px;
+  padding: 5% 5% 5% 5%;
+}
+
+.iconDiv {
+  font-size: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.talentCard > h3 {
+  text-align: center;
+  color: blue;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,15 @@
+.skillGroup {
+  color: #f15bb5;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.skillGroupDiv {
+  margin-bottom: 15px;
+}
+
+.skillGroupBigDiv {
+  margin-right: auto;
+  margin-left: auto;
+}

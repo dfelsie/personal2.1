@@ -1,0 +1,42 @@
+.triangle {
+  position: relative;
+  background: var(--head-sec-color);
+  z-index: -1;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100px 0 100px;
+  border-color: var(--head-sec-color) transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.basicSec {
+  padding: 125px 5% 5% 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mxAuto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.nextImage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nextImageContainer {
+  height: 50%;
+  width: 50%;
+  position: relative;
+}

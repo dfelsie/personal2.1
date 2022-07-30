@@ -1,0 +1,37 @@
+:root {
+  --main-bg-color: blue;
+  --head-sec-color: #00bbf9;
+  --header-body-color: #414d64;
+}
+body {
+  font-size: 16px;
+  font-family: "Inter", "sans-serif";
+  margin: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+p {
+  font-family: "Inter", "sans-serif";
+}
+h1 {
+  font-family: "Ubuntu", "sans-serif";
+}
+h2 {
+  font-family: "Ubuntu", "sans-serif";
+}
+h3 {
+  font-family: "Ubuntu", "sans-serif";
+}
+h4 {
+  font-family: "Ubuntu", "sans-serif";
+}
+@media (min-width: 700px) {
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 18px;
+  }
+}
