@@ -22,7 +22,7 @@
 .identityBarAvatar {
   position: absolute;
   border-radius: 25px;
-  height: 50px;
+  height: 60px;
   width: 50px;
   overflow: hidden;
 }
@@ -38,8 +38,33 @@
 
 .smallHeadText {
   margin-top: 25px;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #fee440;
+}
+
+.smallHeadText > a {
+  color: #fee440 !important;
+  text-decoration: none;
+}
+.smallHeadText > a#info:hover {
+  text-decoration: underline;
+}
+
+#arrow {
+  font-size: 1.5rem;
+  position: relative;
+  animation: mymove 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 25px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -47,7 +72,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--head-sec-color);
-    height: clamp(450px, 10vh, 10vh);
+    height: 550px;
     color: rgba(245, 245, 245, 0.89);
     padding-left: 15%;
     padding-right: 15%;

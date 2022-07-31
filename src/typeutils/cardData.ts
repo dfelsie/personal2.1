@@ -1,6 +1,6 @@
 export type TalentCardData = {
-  headText: String;
-  bodyText: String;
+  headText: string;
+  bodyText: string;
   icon: JSX.Element;
 };
 

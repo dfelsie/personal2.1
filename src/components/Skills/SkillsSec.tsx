@@ -29,17 +29,17 @@ const skills = {
 const skillGroups = Object.keys(skills);
 export default function SkillsSec({}: Props) {
   return (
-    <div className={joinClasses(sharedStyles.basicSec)}>
+    <div className={joinClasses(sharedStyles.basicSec, localStyles.skillSec)}>
       <SecHeader
         bodyText={
           "I have experience with both fullstack development and machine learning."
         }
         headerText={"Tools I use"}
       />
-      <div className={localStyles.skillGroupBigDiv}>
+      <div className={localStyles.skillGroupBig}>
         {skillGroups.map((val, i) => (
           <div
-            className={localStyles.skillGroupDiv}
+            className={localStyles.skillGroupCont}
             key={`Skillgroupdivnum${i}`}
           >
             <div className={localStyles.skillGroup} key={`Skillgroupnum${i}`}>

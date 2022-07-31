@@ -1,15 +1,30 @@
+.skillSec {
+  background-color: rgb(250, 250, 250);
+}
+
 .skillGroup {
   color: #f15bb5;
-  text-transform: uppercase;
-  font-size: 0.75rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
-.skillGroupDiv {
+.skillGroupCont {
   margin-bottom: 15px;
 }
 
-.skillGroupBigDiv {
+div.skillGroupBig {
   margin-right: auto;
   margin-left: auto;
+  display: grid;
+  color: blue;
+}
+
+@media (min-width: 940px) {
+  div.skillGroupBig {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import localStyles from "./SecHeader.module.css";
 import sharedStyles from "../../sharedStyles.module.css";
 type Props = {
-  headerText: String;
-  bodyText: String;
+  headerText: string;
+  bodyText: string;
 };
 export default function SecHeader({ headerText, bodyText }: Props) {
   return (

@@ -24,7 +24,10 @@ export default function AboutMeHeadSec({}: Props) {
         </p>
       </div>
       <div className={localStyles.smallHeadText}>
-        <a>Want to communicate? Here's my contact info:</a>
+        <a id={localStyles.info} href="#contactInfo">
+          Want to communicate? Here's my contact info:
+        </a>
+        <span id={localStyles.arrow}> &#8594;</span>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export default function IdentityBar({}: Props) {
         <Image
           className={sharedStyles.nextImage}
           layout={"fill"}
-          src="/assets/images/kobu.jpg"
+          src="/assets/images/litme.jpg"
         />
       </div>
       <div className={localStyles.identityBarText}>

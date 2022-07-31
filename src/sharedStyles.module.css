@@ -1,7 +1,6 @@
 .triangle {
   position: relative;
   background: var(--head-sec-color);
-  z-index: -1;
 }
 
 .triangle::before {

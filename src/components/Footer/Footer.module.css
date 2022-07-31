@@ -24,10 +24,11 @@
   width: 95%;
 }
 
-.linkList > li {
+.linkList > li > a {
   transition: linear 1s;
+  text-decoration: none !important;
 }
-.linkList > li :hover {
+.linkList > li:hover {
   text-decoration: underline;
 }
 

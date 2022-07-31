@@ -6,7 +6,7 @@ type Props = {};
 export default function FooterSec({}: Props) {
   return (
     <div className={joinClasses(localStyles.footerSec)}>
-      <ul className={localStyles.linkList}>
+      <ul className={localStyles.linkList} id={"contactInfo"}>
         <li>
           <a href="https://www.linkedin.com/in/daniel-felsenthal-697797213/">
             Linkedin

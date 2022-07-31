@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import localStyles from "./Talents.module.css";
 import sharedStyles from "../../sharedStyles.module.css";
 type Props = {
-  headerText: String;
-  bodyText: String;
+  headerText: string;
+  bodyText: string;
   icon: JSX.Element;
 };
 export default function TalentCard({ headerText, bodyText, icon }: Props) {
