@@ -6,25 +6,25 @@ import SecHeader from "../../widgets/SecHeader/SecHeader";
 type Props = {};
 const skills = {
   frontend: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  backend: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  mobile: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
+  backend: ["Node.js/Express", "Spring/Java", ".NET/C#", "Python/Flask", "C++"],
+  mobile: ["Dart", "Flutter", "Kotlin"],
   "machine learning": [
-    "HTML5",
-    "CSS3",
-    "Javascript/Typescript",
-    "React",
-    "Next.js",
+    "Tensorflow",
+    "R",
+    "Applied Mathematics/Statistics",
+    "Pandas",
   ],
-  devops: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  "soft skills": ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  "best practices": [
-    "HTML5",
-    "CSS3",
-    "Javascript/Typescript",
-    "React",
-    "Next.js",
+  devops: ["Docker", "Kubernetes", "Digital Ocean"],
+  "soft skills": ["Team Work", "Communication", "Design", "Drive"],
+  "best practices": ["Testing", "Jira", "Git Workflows", "Excalidraw"],
+  other: [
+    "Redis",
+    "Firebase",
+    "MongoDB",
+    "Authentication",
+    "SQL/Postgres",
+    "ElasticSearch",
   ],
-  other: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
 };
 const skillGroups = Object.keys(skills);
 export default function SkillsSec({}: Props) {
@@ -46,10 +46,7 @@ export default function SkillsSec({}: Props) {
               {val}
             </div>
             <div key={`Skillsentencenum${i}`}>
-              {skills[val].join(",")}
-              {/* {skills[val].map((val, i) => (
-                <></>
-              ))} */}
+              <p className={localStyles.skillList}>{skills[val].join(", ")}</p>
             </div>
           </div>
         ))}

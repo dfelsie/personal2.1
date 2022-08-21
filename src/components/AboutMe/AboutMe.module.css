@@ -67,12 +67,24 @@
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (max-width: 700px) {
   .aboutMeSec {
     display: flex;
     flex-direction: column;
     background-color: var(--head-sec-color);
-    height: 550px;
+    height: 750px;
+    color: rgba(245, 245, 245, 0.89);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .aboutMeSec {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--head-sec-color);
+    height: 950px;
     color: rgba(245, 245, 245, 0.89);
     padding-left: 15%;
     padding-right: 15%;

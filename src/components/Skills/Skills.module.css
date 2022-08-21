@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.skillList {
+  word-break: break-word;
+}
+
 .skillGroupCont {
   margin-bottom: 15px;
 }

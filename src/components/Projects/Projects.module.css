@@ -2,7 +2,7 @@
   /*   box-shadow: 8px 10px 0px 0px rgba(0, 0, 0, 0.3);
  */
   height: 375px;
-  width: 80%;
+  width: 66%;
   margin-bottom: 25px;
   background-color: #f3f3ec;
   margin-right: auto;
@@ -12,7 +12,7 @@
   border-radius: 25px;
   box-shadow: inset 10px 10px 20px 0px rgba(239, 243, 255, 1),
     inset -12px -12px 12px 0px rgba(191, 209, 255, 1),
-    12px 12px 14px 0px rgba(131, 154, 215, 1);
+    10px 10px 14px 0px rgba(135, 155, 215, 1);
 }
 
 .cardHead {
@@ -38,6 +38,7 @@
 
 .projGrid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .imageCont {
@@ -55,12 +56,13 @@
   border-radius: 25px;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .projGrid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .card {
-    width: 66%;
+    width: 80%;
+    height: 425px;
   }
 }
 @media (min-width: 1100px) {

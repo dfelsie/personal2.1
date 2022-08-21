@@ -3,9 +3,20 @@
   --head-sec-color: #00bbf9;
   --header-body-color: #414d64;
 }
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../public/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url("../public/fonts/Cabin-Regular.ttf");
+}
+
 body {
   font-size: 16px;
-  font-family: "Inter", "sans-serif";
+  font-family: "Cabin", "sans-serif";
   margin: 0;
 }
 
@@ -14,7 +25,7 @@ ul {
 }
 
 p {
-  font-family: "Inter", "sans-serif";
+  font-family: "Cabin", "sans-serif";
 }
 h1 {
   font-family: "Ubuntu", "sans-serif";
